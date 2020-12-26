@@ -1,0 +1,27 @@
+{
+  "name": "test-aws-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node -r dotenv/config app.js",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/duncanpharvey/test-aws-app.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/duncanpharvey/test-aws-app/issues"
+  },
+  "homepage": "https://github.com/duncanpharvey/test-aws-app#readme",
+  "devDependencies": {
+    "dotenv": "^8.2.0"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
